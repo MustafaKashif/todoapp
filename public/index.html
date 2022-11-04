@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js">
+</head>
+<body class="bg-dark text-info">
+    <h1 class="text-center p-4 border-bottom border-warning">Mustafa's To-do app</h1>
+    
+    <div class="container w-100 d-flex justify-content-center align-items-center border-bottom border-warning py-3">
+        
+    <input type="text" class="mx-2 text-center" id="input" placeholder="Enter the To-do List here">
+
+    <button class="btn btn-outline-info mx-2" onclick="addTodos()">Add</button>
+    <button class="btn btn-outline-info" onclick="deleteTodos()">Delete</button>
+</div>
+
+    <p class="p-3 text-center fs-3"><b>The items in To-do list are given below : </b></p>
+    <div id="output" class="p-4 text-center output">
+
+    </div>
+</body>
+<script src="app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"></script>
+</html>

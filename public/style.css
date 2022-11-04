@@ -1,0 +1,10 @@
+input{
+    padding: 10px;
+    border-color: cornflowerblue;
+    border-radius: 10px;
+}
+
+
+input::placeholder{
+    color:cornflowerblue;
+}
